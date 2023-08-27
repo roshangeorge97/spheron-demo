@@ -4,7 +4,7 @@ import { InjectedConnector } from "@web3-react/injected-connector";
 import Form from './Form';
 import "./App.css";
 
-const CHAIN_ID = Number(process.env.REACT_APP_CHAIN_ID || 0);
+const CHAIN_ID = Number(80001);
 const connector = new InjectedConnector({ supportedChainIds: [CHAIN_ID] })
 
 const App = () => {
